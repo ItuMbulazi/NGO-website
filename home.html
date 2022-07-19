@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Document</title>
+  <link rel="stylesheet" href="home.css">
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link rel="stylesheet" href="meettheteam.css">
+  <!--fav-icon------------>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="images/fav-icon,png" />
+  <!--using FontAwesome-------------------->
+  <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+
+<body >
+  
+
+
+
+   
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div style="margin-top:-5px">
+          <img src="assets/logo3.png" style="width:120px; border-radius:300px;margin:10px">
+        </div>
+        <ul class="navbar-nav ml-auto">
+         
+          <li class="nav-item active">
+            
+            <a class="nav-link" href="#" >Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onClick="window.location.href='about.html'">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact" >Contact us</a>
+          </li>
+          <li class="nav-item active">
+            
+            <a class="nav-link" href="#ourteam" >Our Team <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            
+            <a class="nav-link" href="#events" >Events <span class="sr-only">(current)</span></a>
+          </li>
+        
+        </ul>
+      </div>
+    </nav>
+
+
+
+
+    <div class="jumbotron">
+      <div class="banner-text  ">
+        <div class="
+                .flex-container">
+          <h1 class="text-center txt">Giving hope to the</h1>
+          <h1 class="text-center txt">Hopeless</h1>
+
+        </div>
+
+        <div class="text-center btnclass">
+          <button class="btn-lg border-0"
+            style="background-color: red;color:white; font-weight:bold;width: 150px;">Donate</button>
+          <button class="btn-lg border-0"
+            style="background-color:red;color:white;font-weight:bold;width:150px">volunteer</button>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+
+    
+
+
+    <div class="row  h-100 d-flex align-items-center justify-content-center">
+      <div class=" col-lg-2 col-sm-12 service" style="background-color:white; height: 400px;">
+        <div>
+          <svg width="90" height="90" viewBox="0 0 90 90" fill="orange" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <rect width="90" height="90" fill="url(#pattern0)" />
+            <defs>
+              <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                <use xlink:href="#image0_5_19" transform="scale(0.0111111)" />
+              </pattern>
+              <image id="image0_5_19" width="90" height="90"
+                xlink:href="data:image/png;base64,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" />
+            </defs>
+          </svg>
+        </div>
+
+        <div>
+          <h3 class="text-center heading">Make Donation</h3>
+          <h5 class="paragraph" style="text-align: center; padding-top: 8%;">Help today because tomorrow you may be the
+            one who needs helping!</h5>
+
+        </div>
+
+
+
+      </div>
+      <div class="col-lg-2  col-sm-12 service" style="background-color: white; height: 400px;">
+
+        <svg width="90" height="90" viewBox="0 0 90 90" fill="orange" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink">
+          <rect width="90" height="90" fill="url(#pattern0)" />
+          <defs>
+            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+              <use xlink:href="#image0_5_19" transform="scale(0.0111111)" />
+            </pattern>
+            <image id="image0_5_19" width="90" height="90"
+              xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAABmJLR0QA/wD/AP+gvaeTAAAGQklEQVR4nO2cW4hVVRjHf9N4HcwZC81KNCUCkTC7EPSQUYEGIRXYQxdBsfvFIB9CzRvRS089dM8siKgopYtUYDQpGYqUYZCZRQ9BmHdsJhlHdw/rHNtz3LPP9639rb3O0P7BB4Mc1v//Lb9z9t7fWntBRUVFRUVFRUVFRUXF/5CRwArgZ+AEsA9YA4yOaapGB7AW5+kEzuMynOchxQhgC5BkxDbiTnYH8G2GrwToBobHs6bnabITqcfqeNZYm+MrwXkfEowDjpKfzC/R3LmfizxvR3E5tDxryE8kAXqjuXPazfytieZOiKSaE2B3LIM17Wb+zKv6HMvBgCeATsHnNhjratgo+EwnsCS0EV86gcM0r5aTwKRIHgEuAvoyfA2Z3+rVNDefAB/GMphiAzKvMe+OMpFWcwLcFMljmpuReW25qpZW816gLZLHNG3AHmSeV0XyeBaaan48kscsljDEqnoVMsM9tIjhGp3A38i8r4zk8Qyaan4lksc8XkVe1V2RPALyak6AKyN5zGMmcv/Rqnos8mr+JpJHCdto8apeKTSYAHfHMCjkHuR5lN7ZGwscEpo7AIwq26CCEcB+ZLkcwbOqfXsdS4DzhJ99DbeK0ar0AW8IP9sFPBrQywA01XwKuKQsYwWYDPQTuKq1NFs9ScdHZRgy4mPkea0IbUZTzQkwJ7QhQ+Yizyt4Va9QmNmHfb87JG241XBpfstDGRmDu4OQGnkylJGALEWe3yHcN9yc5QoTvcD5IUwEZhyuJyPNc5m1gXOBgwoD660NlMh65HkexM2NGcsU4glwtaV4ycxCl+tTkkGlF6t7lWalDzNShgOLgK24KuoBduD629bbuMYrP7/AUlyyFyIdPwDtRtqTgO9ztHbhFlwtaMd51+RqukdFuuyTjoUGusPJn+T0ZFtU9kKBVmP8ZKB7Bs39cz3+wG0oLMIihd5jBbU6cJ61eZreT0/ANYa0Joo+qm5VaO0oqOVTTP/g5sYUzW1PPY4DEwtoam4pT+OaQz5MAI4ptOqxzlMvlys8jCTASwU0NU+iCf7buF5W6tRjpqdeU772MHMSmO6p163U2uKhMb3mUZtXt2dOIu7wMJTgWpA+PKPUOYX+Vu8Tz5xu98xJRDvwm6cxn61gN3roPKQYf7ZnLr9j95wwKJoOVzp2AsOUWqPQPyxtFo49rObJJ5elyjy86MLdTfgY3AVco9TbrNTop/lj9Exgu2cOPdi3GAblRU+TCe7C8zyuvy1B29BKgMWDjDUatyFTsj96sHhB6NuEy3AXHl+zCe63XrLUda3H2J9ljDMb3QpKVpzG/w7Km88Lmq7H++R/1dtxa3SaMfv47+s9Drfv77SB16z/wODc4mk2Kw4D9zP43mnNCnU9FgDzgb8Mfc71m6piaDZzS+O5QbSke5nToVmSksQeIm6if0RgUBN9wKUZOpcb6/jEwwXmqTAd6PZ5SOK9DJ024E9jHU0cQX6XlEnRfRe9wJsFx2hkPnBdw78lBO4tNGEd7u2AqExBvm9NGlnNofuMNaTRD0wrNEOGbMQ+wXkNGtMCaEgi5lu+Z3ED9gnu4ezeiG9Dq0jMLj49tuzCPskHGjReD6CRF7tpjfciB6BZSJXGfgbuBLorgEZeWKzkmzMav3W3ZpF+c3UiNo/SkjhKa5z/lMk72CfcuMD7YwCNrHjbbFaw379cdMk/izEMPGXgywAaWWy3HMx6og8Zj1dnMTCj9vdXgTQaMc3FeqKPG49Xpx14tvZ3N64XHhrTXKwn2nzXTop5wPW4i9TOgDp1LrAczHqig20oqVF/H7uMBnzoXAoR4qElHXtrOjMovpTWLL6znBhLriL8LddbKb13S9CbZTQ3pmwibNLHgakpvan4b3uQxiajuTFjDuGrq7HvAfBgCbq3FpwbM0ZSfBm/WWwmu7nThrswhtTeR4uczqA5hcYnjpG/7/li5Ae0+Eb0M5UmY7/a3BiSDlqIzmE6eom8yuKz30ITXyDvB38a2Eu0kxo0pwH4xBF0Z5heiP2KfGOUfmEciXt4CJmUzzlMmvORfOJXSr4wSo/IjPE1/SCwt9KO0JxC2AvgAYo1dMYjP4zKJ0q7MPq+8yGNOw083hbYo+87ORUVFRUVFRUVFRUVFa3Hv+2y+t2mqLLzAAAAAElFTkSuQmCC" />
+          </defs>
+        </svg>
+
+        <h3 class="text-center heading">Volunteer</h3>
+        <h5 class="paragraph" style="text-align: center; padding-top: 8%;">Help today because tomorrow you may be the
+          one who needs helping!</h5>
+
+      </div>
+    </div>
+ 
+          <h1 style="text-align:center;color: red;font-weight: bold; font: size 46px;"  class=" text-center">about us</h1>
+        <div class="row  h-100 d-flex align-items-center justify-content-center " id="about-section " style="margin-left: 15%;" >
+          <!-- <div style="display:flex;  justify-content: center;"   class="mt-5 ">-->
+           
+       
+                  <div class="row" style="padding-bottom:40px" style="margin:5%" >
+                    <div class="col-lg-3 col-sm-12 m-5 pr-10" >
+                    <img src="assets/ART6.jpg" style="width:400px">
+                    </div>
+                     
+                        <div class=" m-5 col-lg-5 col-sm-12" >
+                      <h5 style="color: red;padding-right:20%" >Who are we </h5>
+                      <h5   style="color: black;">A house of creative and intelligent</h5>
+                      
+                      <p  style="color:black"> Help today because tomorrow you may be 
+                         
+                        Help today because tomorrow you may beHelp today Help today because tomorrow you may beHelp today Help today because tomorrow you may beHelp today
+                        Help today because tomorrow you may beHelp today
+                     
+                    </p>
+                    <button type="button" class="btn2" style="background-color:#000000;color:white">Learn More</button>
+                        
+                    
+                     
+                  </div>
+          </div>
+        </div>
+
+
+    <h1 style="text-align:center;color: red;font-weight: bold; padding-top: 10%;"  class="py-5"> RECENT CAUSES</h1>
+    <div class="row  h-100 d-flex align-items-center justify-content-center">
+
+      <div class="col-lg-3 col-sm-12  ">
+
+        <div class="card " style="width: 25rem;border-radius: 10px;">
+          <img class="images" src="assets/causes-1.jpg">
+          <div class="card-body">
+            <h5 class="card-title"  style=" color: black;">building cleanwater-system for rural poor</h5>
+            <p class="card-text"  style=" color: black;">Help today because tomorrow you may be the one who needs more helping</p>
+            <button type="button" class="btn btn-warning">Primary</button>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="col-lg-3 col-sm-12 ">
+
+        <div class="card " style="width: 25rem;border-radius: 10px;">
+          <img class="images" src="assets/causes-2.jpg">
+          <div class="card-body">
+            <h5 class="card-title"     style=" color: black;">building cleanwater-system for rural poor</h5>
+            <p class="card-text"   style=" color: black;">Help today because tomorrow you may be the one who needs more helping</p>
+            <button type="button" class="btn btn-warning">Primary</button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-lg-3 col-sm-12 ">
+
+        <div class="card " style="width: 25rem; border-radius: 10px;">
+
+          <img class="images" src="assets/causes-3.jpg">
+          <div class="card-body">
+            <h5 class="card-title"  style=" color: black;">building cleanwater-system for rural poor</h5>
+            <p class="card-text"  style=" color: black;" >Help today because tomorrow you may be the one who needs more
+             
+              </p>
+            <button type="button" class="btn btn-warning">Primary</button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+  </div>
+  <h1 class="py-5" style="text-align:center;color: red;font-weight: bold; padding-top: 10%;" id="events"> UPCOMING EVENTS</h1>
+
+
+  <div class="row h-100 d-flex align-items-center justify-content-center">
+
+    <div style="margin-left: 5%  ; height:200px  ; background-color: white; width:400px;margin:5px">
+      <div class="row">
+        <div style="height: 200px ;width: 150px; background-color: #413F42; display: block;"  class="col">
+          <h1 style="font-size:75px ; padding-top: 5% ; color: white;">
+            13
+          </h1>
+
+          <h2>June</h2>
+        </div>
+
+        <div class="col" style="color:black; margin-top:50px">
+          PAINTING WORKSHOPS 
+          7AM-5PM 
+          AT SMME VILLAGE
+        </div>
+
+      </div>
+
+    </div>
+    <div style="margin-left: 5%  ; height:200px  ; background-color: white; width: 400px;margin:5px">
+      <div class="row">
+        <div style="height: 200px ;width: 150px; background-color: #413F42; display: block;"  class="col">
+          <h1 style="font-size:75px ; padding-top: 5% ; color: white;">
+            13
+          </h1>
+
+          <h2>June</h2>
+        </div>
+
+        <div class="col" style="color:black;margin-top:50px">
+          PAINTING WORKSHOPS 
+          7AM-5PM 
+          AT SMME VILLAGE
+        </div>
+
+      </div>
+
+    </div>
+   
+    <div style="margin-left: 5%  ; height:200px  ; background-color: white; width: 400px; margin:5px">
+      <div class="row">
+        <div style="height: 200px ;width: 150px; background-color: #413F42; display: block;"  class="col">
+          <h1 style="font-size:75px ; padding-top: 5% ; color: white;">
+            13
+          </h1>
+
+          <h2>June</h2>
+        </div>
+
+        <div class="col" style="color:black;margin-top:50px">
+           PAINTING WORKSHOPS 
+           7AM-5PM 
+           AT SMME VILLAGE
+        </div>
+
+      </div>
+
+    </div>
+   
+
+
+
+  </div>
+
+  <h1 class="text-center py-5" style="color:red;font-weight:bold;margin-bottom:-50px"id="ourteam">OUR TEAM</h1>
+  <div class="row  h-100 d-flex align-items-center justify-content-center mt-5  ">
+
+    <div class="box">
+      <!--top-bar-------------->
+      <div class="details">
+        <img src="assets/pic1.jpg" alt="">
+        <strong>GennArt<br>GennArt</strong>
+        <p>co-founder of you-nique founder of kimberley based poetry group,cullinan creative</p>
+      </div>
+      <!--view-btns-------------->
+      <div class="text-center">
+        <img class="soc" src="assets/fb.png">
+        <img class="soc" src="assets/twitter.png">
+        <img class="soc" src="assets/insta.png">
+      </div>
+
+    </div>
+    <!--box-2----->
+    <div class="box">
+      <!--top-bar------->
+
+      <!--nav------->
+
+      <!--img and details----->
+      <div class="details">
+        <img src="assets/pic2.jpg" alt="">
+        <strong>McDuff<br>Valashiya</strong>
+        <p>co-founder of you-nique founder of kimberley based poetry group,cullinan creative</p>
+      </div>
+      <!--view-btns------>
+      <div class="text-center">
+        <img class="soc" src="assets/fb.png">
+        <img class="soc" src="assets/twitter.png">
+        <img class="soc" src="assets/insta.png">
+
+      </div>
+
+    </div>
+    <!--box-3----->
+    <div class="box">
+      <!--top-bar------->
+
+      <!--nav------->
+
+      <!--img and details----->
+      <div class="details">
+        <img src="assets/pic3.jpg" alt="">
+        <strong>Tremaine Seekoei</strong>
+        <p>co-founder of you-nique founder of kimberley based poetry group,cullinan creative</p>
+      </div>
+      <!--view-btns------>
+      <div class="text-center">
+        <img class="soc" src="assets/fb.png">
+        <img class="soc" src="assets/twitter.png">
+        <img class="soc" src="assets/insta.png">
+
+      </div>
+
+    </div>
+    <!--box-4----->
+    <div class="box">
+      <!--top-bar------->
+
+      <!--nav------->
+
+      <!--img and details----->
+      <div class="details">
+        <img src="assets/pic4.jpg" alt="">
+        <strong>Ivan<br>Johnson</strong>
+        <p>co-founder of you-nique founder of kimberley based poetry group,cullinan creative</p>
+      </div>
+      <!--view-btns------>
+      <div class="text-center">
+        <img class="soc" src="assets/fb.png">
+        <img class="soc" src="assets/twitter.png">
+        <img class="soc" src="assets/insta.png">
+
+      </div>
+
+    </div>
+
+    </section>
+
+
+
+
+
+  </div>
+
+<div style="background-color:#000000">
+
+  <div class="container" style="background-color:#000000">
+    <h1 class="text-center py-5" style="color:white;font-weight:bold;margin-bottom:-50px"id="contact">Contact us on</h1>
+    <div class="content">
+      <div class="left-side">
+        <div class="address details">
+          <i class="fas fa-map-marker-alt"style="color:white;"></i>
+          <div class="topic" style="color:white">Address</div>
+          <div class="text-one">Surkhet, NP12</div>
+          <div class="text-two">Birendranagar 06</div>
+        </div>
+        <div class="phone details">
+          <i class="fas fa-phone-alt"style="color:white;"></i>
+          <div class="topic"style="color:white">Phone</div>
+          <div class="text-one">+0098 9893 5647</div>
+          <div class="text-two">+0096 3434 5678</div>
+        </div>
+        <div class="email details">
+          <i class="fas fa-envelope" style="color:white;"></i>
+          <div class="topic"style="color:white">Email</div>
+          <div class="text-one">codinglab@gmail.com</div>
+          <div class="text-two">info.codinglab@gmail.com</div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="topic-text" style="color:white;">Send us a message</div>
+        <p style="color:white">If you have any work from me or any types of quries related to my tutorial, you can send me message from
+          here. It's my pleasure to help you.</p>
+        <form action="https://formspree.io/f/xjvlqoep" method="post">
+          <div class="input-box">
+            <input type="text" name="name" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <input type="text" name="email" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box message-box" >
+            <input type="text" name="message" placeholder="enter your message" required>
+          </div>
+          <div class="input-box">
+            <button >send</button>
+          </div>
+          </form>
+      </div>
+
+
+
+
+      
+
+</body>
+
+</html>

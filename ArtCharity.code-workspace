@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\CharityProject"
+		},
+		{
+			"path": "..\\kabza"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ArtCharity"
+	}
+}
